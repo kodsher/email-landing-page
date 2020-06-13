@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background:
+        linear-gradient(rgba(51, 51, 51, 0.81),
+            rgba(51, 51, 51, 0.81)),
+        url(../images/t4AoGGSVVzGc5hGYwZ1sQV.jpeg);
+
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    color: white;
+    width: 900px;
+    /* height: 50vh; */
+    position: relative;
+}
+
+p {
+    color: #bbbbbb;
+}
+
+@media (max-width:992px) {
+    #join-email-list {
+        padding-top: 24px !important;
+    }
+}
